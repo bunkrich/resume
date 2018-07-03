@@ -1,0 +1,21 @@
+header {
+  background-color: antiqueblue;
+}
+nav {
+  background-color: aqua;
+}
+#summary {
+  background-color: aquamarine;
+}
+#experiences {
+  background-color: beige;
+}
+#skills {
+  background-color: cornsilk;
+}
+#education {
+  background-color: mediumspringgreen;
+}
+footer {
+  background-color: palegreen;
+}
