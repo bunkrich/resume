@@ -1,4 +1,4 @@
-input[type=checkbox] + label {
+/* input[type=checkbox] + label {
   color: #ccc;
   font-style: italic;
 }
@@ -9,4 +9,4 @@ input[type=checkbox]:checked + label {
 input[type=checkbox]:checked + p{
   color: green;
   font-style: normal;
-}
+} */
