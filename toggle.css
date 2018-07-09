@@ -1,0 +1,12 @@
+/* input[type=checkbox] + label {
+  color: #ccc;
+  font-style: italic;
+}
+input[type=checkbox]:checked + label {
+  color: #f00;
+  font-style: normal;
+}
+input[type=checkbox]:checked + p{
+  color: green;
+  font-style: normal;
+} */
