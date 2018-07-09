@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal;
+  text-align: center;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+h1 {
+  font-size: 3em;
+  font-family: 'Abril Fatface', cursive;
+}
+h2 {
+  font-size: 2.5em;
+  font-family: 'Abril Fatface', cursive;
+}
+h3 {
+  font-size: 2em;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+}
+h4 {
+  font-size: 1.5em;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+
+body {
+  font-size: 10px;
+  font-family: 'Open Sans', sans-serif;
+}
+#logo {
+  grid-area: logo;
+  background-image: url("http://sidgolds.com/wp-content/uploads/2015/06/sidgold_logo_ret.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+header, footer, aside {
+  text-align: center;
+  /* margin: 2em;
+  padding: 1em; */
+}
+
+.price {
+  text-align: center;
+  width: fit-content;
+  display: inline-block;
+}
+.items, #pupu {
+  border-radius: 15px;
+  padding: .5em;
+  margin: .5em;
+}
+div, .price {
+  padding: .5em;
+  margin: .5em .2em;
+}
+.price+.price::before {
+  content: "OR ";
+}
+.bottle-price {
+}
+.bottle-price::before {
+  content: " | ";
+}
+.wine-type, .beer-type {
+  text-transform: uppercase;
+  font-weight: 800;
+}
+.up::before {
+  content: "up";
+}
+.collins::before {
+  content: "co";
+}
+.highball::before {
+  content: "hb";
+}
+.wine-glass::before {
+  content: "wg";
+}
+.cocktail::before {
+  padding: .5em;
+  border-radius: 25px;
+  position: absolute;
+}

@@ -1,21 +1,37 @@
-header {
-  background-color: antiqueblue;
+
+h1, h2, h3, h4, h5, h6, p {
+  color: lightpink;
 }
-nav {
-  background-color: aqua;
+#menu>article {
+  background: lightyellow;
 }
-#summary {
-  background-color: aquamarine;
+
+.items {
+background: lightyellow;
 }
-#experiences {
-  background-color: beige;
+div {
+  background: lightcyan;
 }
-#skills {
-  background-color: cornsilk;
+.price {
+  background: lightyellow;
 }
-#education {
-  background-color: mediumspringgreen;
+.price+.price::before {
+  color: yellow;
 }
-footer {
-  background-color: palegreen;
+.bottle-price {
+  color: lightgrey;
+}
+.items {
+  color: gray;
+}
+.cocktail::before {
+  background: lightskyblue;
+}
+div, .price {
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+div:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
